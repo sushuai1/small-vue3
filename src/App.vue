@@ -17,6 +17,10 @@ function handleClick(){
     </a> -->
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
+  <ol>
+    <li> <router-link to="/">GO TO HOME</router-link> </li>
+    <li> <router-link to="/test">GO TO TEST</router-link> </li>
+  </ol>
 </template>
 
 <style scoped>
